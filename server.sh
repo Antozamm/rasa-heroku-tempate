@@ -6,4 +6,4 @@ then
 fi
 
 # adding a comment
-rasa run --enable-api --port $PORT
+rasa run --model models --enable-api --debug --port $PORT
