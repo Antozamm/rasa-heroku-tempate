@@ -6,4 +6,4 @@ then
 fi
 
 # adding a comment
-rasa run --model models --enable-api --debug --port $PORT
+rasa run --model models --enable-api --debug --port $PORT -models/nlu-20210516-154432.tar.gz
