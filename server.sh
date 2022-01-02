@@ -6,4 +6,5 @@ then
 fi
 
 # adding a comment
+rasa telemetry disable
 rasa run --model models --enable-api --debug --port $PORT
